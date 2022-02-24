@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    position: relative;
+    left: 330px;
+    top: 25px;
+    width: 700px;
+    border: solid 15px white;
+    border-radius: 5px;
+}
+
+#Adele{
+    font-size: 90px;
+    text-decoration: none;
+}
+
+h1, h2{
+    font-size: 48px;
+    text-align: center;
+    text-decoration:overline;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    margin: 25px 40px 25px 40px;
+    
+}
+
+h2::first-letter{
+    color: gold;
+}
+
+p::first-letter{
+    color: gold;
+    font-size: 40px;
+}
+
+p::first-line{
+    text-decoration:underline;
+}
+
+strong{
+    font-size: 25px;
+    color: red;
+}
+
+p > a{
+    color: gold;
+}
+
+p > a:hover{
+    color: aqua;
+}
+
+hr{
+    background: goldenrod;
+    padding: 10px;
+    border: 3px dashed;
+}

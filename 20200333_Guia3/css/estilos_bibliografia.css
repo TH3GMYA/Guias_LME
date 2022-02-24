@@ -1,0 +1,99 @@
+body{
+    background-color: azure;
+}
+
+.header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: goldenrod;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-top:20px ;
+    margin-bottom: 20px;
+    left: 430px;
+    padding: 45px;
+    width: 400px;
+    height: 100px;
+    border-radius: 7px;
+    border: solid 12px black;
+}
+
+img{
+    position: relative;
+    margin-left:330px ;
+    width: 680px;
+    height: 300px;
+    border-radius: 6px;
+    border: solid 12px black;
+}
+
+/*EDITAR EL NAVEGADOR*/
+.navegador > ul{
+    list-style: none;
+}
+.navegador, a{
+    color: black;
+    text-decoration: none;
+}
+.navegador a:hover{
+    color: white;
+}
+
+.navegador > span{
+    font-size: 25px;
+    display:inline-block;
+    margin-left: 190px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: goldenrod;
+    padding: 20px;
+    border: solid 5px black;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.navegador > span:hover{
+
+    border-color: wheat;
+}
+
+/*EDICION DEL TEXTO NORMAL*/
+
+section h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    border: 5px black solid;
+    border-radius: 6px;
+    margin: 25px 385px 25px 385px;
+    background-color: goldenrod;
+    padding: 2px;
+}
+
+section p::first-letter{
+    color: goldenrod;
+    font-size: 32px;
+}
+
+section p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin:50px 80px 50px 80px;
+}
+
+#Lugar_de_nacimiento{
+    text-align: center;
+}
+
+/*Editancdo fotter*/
+
+footer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 4px;
+    font-size: 25px;
+    padding: 2px;
+    background-color: goldenrod;
+    text-align: center;
+    font-weight:bold ;
+}
+
