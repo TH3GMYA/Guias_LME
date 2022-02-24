@@ -1,0 +1,92 @@
+/*Comenzaremos aplicándole estilos básicos al body de la página web.*/
+body{
+    background-color: #E0E0E0;
+    font-family: sans-serif;
+}
+/*Ahora se procederá a darle estilos al div con clase “contenedor”.*/
+.contenedor{
+    background-color: white;
+    box-sizing: border-box;
+    margin: 10px auto;
+    padding: 3%;
+    height: 400px;
+    width:90%; 
+}
+
+/*A continuación se establecen los estilos generales de los botones:*/
+
+.boton{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    background-color: green;
+    line-height: 2.5;
+    padding: 0 1.5em;
+    text-decoration: none;
+
+}
+
+.redondeado{
+    border: solid 2px black;
+    border-radius: 1.25em;
+}
+
+.rojo{
+    background-color: #d32f2f;
+}
+
+.rojo:hover{
+    background-color: #c62828;
+}
+
+.rosa{
+    background-color: #FF4081;
+}
+
+.rosa:hover{
+    background-color: #F06292;
+}
+
+.morado{
+    background-color: #6A1B9A;
+}
+
+.morado:hover{
+    background-color: #9C27B0;
+}
+
+.azul{
+    background-color: #1A237E;
+}
+
+.azul:hover{
+    background-color: #303F9F;
+}
+
+.celeste{
+    background-color: #42A5F5;
+}
+
+.celeste:hover{
+    background-color: #1E88E5;
+}
+
+.verde{
+    background-color: #2E7D32;
+}
+
+.verde:hover{
+    background-color: #43A047;
+}
+
+.naranja{
+    background-color: #FF6D00;
+}
+
+.naranja:hover{
+    background-color: #FF9100;
+}
+
+i{
+    margin-right: 4px;
+}

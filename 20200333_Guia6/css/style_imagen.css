@@ -1,0 +1,118 @@
+body{
+    background-color: #222222;
+    color: white;
+}
+a{
+    color: #FF8000;
+}
+
+#titulo{
+    color: #ccc;
+    height: 50px;
+    width: 400px;
+    margin: 50px auto 0;
+    padding: 0;
+    background-color: #141414;
+    border: 5px solid#1A1A1A;
+    text-align: center;
+}
+
+#cuadro{
+    color: #fff;
+    height: 230px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #141414;
+    border: 5px solid #141414;
+}
+
+li > span{
+    color: #C42808;
+    text-decoration:underline;
+}
+
+.mac{
+    font-size: 14px;
+    padding-left: 17px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    background: url(../images/macosx.gif) bottom left no-repeat;
+    list-style: none;
+}
+
+.wordpress{
+    font-size: 14px;
+    padding-left: 17px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    background: url(../images/wordpress.gif) bottom left no-repeat;
+    list-style: none;
+}
+
+.clickideas{
+    font-size: 14px;
+    padding-left: 17px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    background: url(../images/cli.gif) bottom left no-repeat;
+    list-style: none;
+}
+
+.pownce{
+    font-size: 14px;
+    padding-left: 17px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    background: url(../images/pow.gif) bottom left no-repeat;
+    list-style: none;
+}
+
+.flickr{
+    font-size: 14px;
+    padding-left: 17px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    background: url(../images/flickr.gif) bottom left no-repeat;
+    list-style: none;
+
+}
+
+.blog{
+    font-size: 14px;
+    padding-left: 17px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    background: url(../images/blog.gif) bottom left no-repeat;
+    list-style: none;
+
+}
+
+.mail{
+    font-size: 14px;
+    padding-left: 17px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    background: url(../images/mail.gif) bottom left no-repeat;
+    list-style: none;
+
+}
+
+.tarjeta{
+    font-size: 14px;
+    padding-left: 17px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    background: url(../images/tarjeta.gif) bottom left no-repeat;
+    list-style: none;
+}
+
+.info{
+    font-size: 14px;
+    padding-left: 17px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    background: url(../images/info.gif) bottom left no-repeat;
+    list-style: none;
+
+}

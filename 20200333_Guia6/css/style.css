@@ -1,0 +1,24 @@
+body{
+    background-color:#2E9AFE;
+    color: #D8D8D8;
+}
+h1{
+    text-align: center;
+}
+hr{
+    border: solid 5px #D8D8D8;
+    margin: 0px 45px;
+}
+div{
+    width: 80%;
+    margin: 45px auto;
+    background-color: #00FFBF;
+    padding: 3%;
+    color: black;
+    box-sizing: border-box;
+    
+}
+
+li{
+    list-style-type: square;
+}
