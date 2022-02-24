@@ -1,0 +1,23 @@
+h2{
+    color: white;
+    text-align: center;
+}
+#parrafo1{
+    font-weight: bold;
+    margin-bottom:34px;
+    color:rgba(16, 71,173)
+}
+#parrafo2{
+    text-align: justify;
+    margin-bottom:54px;
+    text-transform: uppercase;
+}
+#parrafo3{
+    font-size: 12px;
+}
+span{
+    font-style:italic
+}
+body{
+    background-color:rgb(187, 157, 241)
+}
