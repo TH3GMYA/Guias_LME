@@ -1,0 +1,84 @@
+body{
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    text-align: center;
+    margin-bottom: 120px;
+    color: white;
+}
+
+
+nav span a{
+    background-color: #72878c;
+    border-right: 1px solid #0D0D0D;
+    color: white;
+    font-size: 1rem;
+    display: inline-block;
+    margin-left: 185px;
+    border-radius: 9px;
+    padding: 40px;
+    text-decoration: none;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+nav span a:hover{
+    background-color: #3e3532;
+}
+/*posicionar las cajas uwu*/
+#datos,#guias {
+    display: inline-block;
+    vertical-align: text-top;
+}
+#datos{
+    margin-right: 10px;
+    margin-top: 50px;
+}
+#datos{
+    background: red;
+    padding: 20px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    color: white;
+    font-weight: bold;
+}
+#datos h3{
+    color: black;
+}
+.info_guia{
+    border-radius: 7px;
+    background-color: #098EFF;
+    color: #fff;
+    float: left;
+    margin-right: 15px;
+    padding: 20px;
+    width: 210px;
+    margin-top: 200px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.info_guia h3{
+    text-align: center;
+    font-size: 27px;
+}
+
+/*FOTTER*/
+footer{
+    background-color: #098EFF;
+    color: #c4d8f2;
+    font-size: 1rem;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
