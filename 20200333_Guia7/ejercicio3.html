@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Uso de tablas en HTML</title>
+</head>
+<body id="cuerpo">
+    <header>
+        <table id="encabezado">
+            <tr>
+                <td><h2 id="titulo">Ejemplos - Tablas en HTML</h2></td>
+                <td><div id="logo"><img src="img/udb.png" alt=""></div></td>
+            </tr>
+        </table>
+    </header>
+    <section id="principal">
+        <div id="banner">
+            <img src="img/banner4.jpg" alt="">
+        </div>
+        <section class="content">
+            <br>
+            <table id="paises">
+                <thead>
+                    <tr>
+                        <th>Pais</th>
+                        <th>Capital</th>
+                        <th>Idioma</th>
+                        <th colspan="2">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>El Salvador</td>
+                        <td>San Salvador</td>
+                        <td>Español</td>
+                        <td><button type="button" class="btn btn-info">Modificar</button></td>
+                        <td><button type="button" class="btn btn-danger">Eliminar</td>
+                    </tr>
+                    <tr>
+                        <td>Italia</td>
+                        <td>Roma</td>
+                        <td>Italiano</td>
+                        <td><button type="button" class="btn btn-info">Modificar</button></td>
+                        <td><button type="button" class="btn btn-danger">Eliminar</td>
+                    </tr>
+                    <tr>
+                        <td>Rusia</td>
+                        <td>Moscu</td>
+                        <td>Ruso</td>
+                        <td><button type="button" class="btn btn-info">Modificar</button></td>
+                        <td><button type="button" class="btn btn-danger">Eliminar</td>
+                    </tr>
+                    <tr>
+                        <td>Portugal</td>
+                        <td>Lisboa</td>
+                        <td rowspan="3">Portuqgues</td>
+                        <td><button type="button" class="btn btn-info">Modificar</button></td>
+                        <td><button type="button" class="btn btn-danger">Eliminar</td>
+                    </tr>
+                    <tr>
+                        <td>Brasil</td>
+                        <td>Brasilia</td>
+                        <td><button type="button" class="btn btn-info">Modificar</button></td>
+                        <td><button type="button" class="btn btn-danger">Eliminar</td>
+                    </tr>
+                    <tr>
+                        <td>Angola</td>
+                        <td>Luanda</td>
+                        <td><button type="button" class="btn btn-info">Modificar</button></td>
+                        <td><button type="button" class="btn btn-danger">Eliminar</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <footer>
+            <p id="pie">© Copyrigth 2016 | Universidad Don Bosco | All Rights Reserved</p>
+            <table id="redes">
+                <tr>
+                    <td><img src="img/fb.png" alt=""></td>
+                    <td><img src="img/tw.png" alt=""></td>
+                    <td><img src="img/yt.png" alt=""></td>
+                    <td><img src="img/eng.png" alt=""></td>
+                    <td><img src="img/esp.png" alt=""></td>
+                </tr>
+            </table>
+        </footer>
+    </section>
+</body>
+</html>

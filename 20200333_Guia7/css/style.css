@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 75px;
+    background-color: rgb(43,172, 243);
+}
+
+footer{
+    height: 115px;
+    background-color: rgb(18, 53, 105);
+}
+
+#cuerpo{
+    background-color: rgb(244, 244, 244);
+}
+
+#titulo{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#encabezado{
+
+    margin: 0px auto;
+
+}
+
+#encabezado td{
+    padding: 15px;
+}
+
+#redes{
+    padding: 15px;
+    margin: 0px auto;
+}
+
+#redes td{
+    padding: left 15px;
+}
+
+#logo img{
+
+    width: 70px;
+    height: 70px;
+}
+
+#principal{
+    background-color: white;
+    width: 75%;
+    height: auto;
+    margin: 0px auto;
+    box-shadow: -10px 10px 15px #888888;
+    box-shadow: 10px 10px 15 #888888;
+}
+
+#banner img{
+    width: 100%;
+    height:125px;
+}
+
+#pie{
+    font-family: Helvetica, sans-serif;
+    font-size: 9pt;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.content{
+    height: 400px;
+}
+
+#equipos{
+    margin: 60px auto;
+    background-color: #b9c8fe;
+    color: #039;
+    font-size: 13pt;
+    border-collapse: collapse;
+}
+
+#equipos th{
+    background-color: rgba(13,71,161,1);
+    padding: 10px;
+    color: white;
+}
+
+#equipos td{
+    border: solid 1px silver;
+    padding: 10px;
+}
+
+#equipos tr:hover{
+    background-color: silver;
+}
+
+#paises{
+    margin: 2px auto;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+#paises td,th{
+    border: solid 1px;
+    padding: 10px;
+}
+
+#paises th{
+    border-style: none;
+    background-color: rgba(13,71,161,1);
+    color: white;
+}
+
+#boostrap{
+    width: 70%;
+    margin: 10px auto;
+}
+
+
+
+
+

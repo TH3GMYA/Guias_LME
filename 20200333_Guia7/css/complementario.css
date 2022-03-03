@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(193, 247, 247);
+}
+
+/*Hacemos el diseño de la tabla*/
+
+caption{
+    margin-bottom: 15px;
+}
+
+table{
+
+    width: 60%;
+    background-image: url(../img/comple_tabla.png);
+    box-shadow: 51px 39px 33px 1px rgba(0,0,0,0.75);
+    margin: 65px auto;
+}
